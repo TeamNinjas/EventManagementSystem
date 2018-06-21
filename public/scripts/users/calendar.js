@@ -4,7 +4,7 @@ $(document).ready(function() {
     $(function(){
         $('#scheduler_here').dhx_scheduler({
             xml_date:'%Y-%m-%d %H:%i',
-            date:new Date(2016,11,12),
+            date:new Date(),
             mode:'month'
         });
 
